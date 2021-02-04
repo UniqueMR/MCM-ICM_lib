@@ -26,4 +26,7 @@ while sum(pb) < length(a)%当仍有点没有被遍历到的时候，执行循环
 end
 
 d, index1,index2;
+
+as = sparse(a);
+view(biograph(as,[],'ShowW','ON'));
     
